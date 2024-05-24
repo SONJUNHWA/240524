@@ -4,8 +4,9 @@ class Bungeoppang:
         self.price = price
         self.total = 0
     def sell(self):
-        print(f"{self.taste}을 {self.price}에 팔았습니다.")
         self.total += self.price
+        print(f"{self.taste}을 {self.price}에 팔았습니다.")
+
     def eat(self):
         print(f"{self.name}을 먹습니다.")
 
